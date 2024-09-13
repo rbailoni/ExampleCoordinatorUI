@@ -11,6 +11,13 @@
 		9AE2EA102C92122B00E1E7F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2EA0F2C92122B00E1E7F5 /* ContentView.swift */; };
 		9AE2EA122C92122D00E1E7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2EA112C92122D00E1E7F5 /* Assets.xcassets */; };
 		9AE2EA152C92122D00E1E7F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2EA142C92122D00E1E7F5 /* Preview Assets.xcassets */; };
+		9AE2EA1D2C9212B000E1E7F5 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2EA1C2C9212B000E1E7F5 /* Coordinator.swift */; };
+		9AE2EA202C92181100E1E7F5 /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2EA1F2C92181100E1E7F5 /* SquareView.swift */; };
+		9AE2EA232C92186900E1E7F5 /* DisposableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2EA222C92186900E1E7F5 /* DisposableViewProtocol.swift */; };
+		9AE2EA252C93212700E1E7F5 /* SquareCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2EA242C93212700E1E7F5 /* SquareCoordinator.swift */; };
+		9AE2EA272C93334200E1E7F5 /* MerchCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2EA262C93334200E1E7F5 /* MerchCoordinator.swift */; };
+		9AE2EA2A2C934F8100E1E7F5 /* MessageViewerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2EA292C934F8100E1E7F5 /* MessageViewerCoordinator.swift */; };
+		9AE2EA2F2C9350D900E1E7F5 /* TextViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2EA2E2C9350D900E1E7F5 /* TextViewerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		9AE2EA0F2C92122B00E1E7F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9AE2EA112C92122D00E1E7F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AE2EA142C92122D00E1E7F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AE2EA1C2C9212B000E1E7F5 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9AE2EA1F2C92181100E1E7F5 /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
+		9AE2EA222C92186900E1E7F5 /* DisposableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposableViewProtocol.swift; sourceTree = "<group>"; };
+		9AE2EA242C93212700E1E7F5 /* SquareCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareCoordinator.swift; sourceTree = "<group>"; };
+		9AE2EA262C93334200E1E7F5 /* MerchCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchCoordinator.swift; sourceTree = "<group>"; };
+		9AE2EA292C934F8100E1E7F5 /* MessageViewerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewerCoordinator.swift; sourceTree = "<group>"; };
+		9AE2EA2E2C9350D900E1E7F5 /* TextViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,9 @@
 		9AE2EA0C2C92122B00E1E7F5 /* ExampleCoordinatorUI */ = {
 			isa = PBXGroup;
 			children = (
+				9AE2EA212C92183C00E1E7F5 /* Protocols */,
+				9AE2EA1E2C9217F900E1E7F5 /* Views */,
+				9AE2EA1B2C92129A00E1E7F5 /* Coordinators */,
 				9AE2EA0D2C92122B00E1E7F5 /* ExampleCoordinatorUIApp.swift */,
 				9AE2EA0F2C92122B00E1E7F5 /* ContentView.swift */,
 				9AE2EA112C92122D00E1E7F5 /* Assets.xcassets */,
@@ -65,6 +82,50 @@
 				9AE2EA142C92122D00E1E7F5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AE2EA1B2C92129A00E1E7F5 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				9AE2EA1C2C9212B000E1E7F5 /* Coordinator.swift */,
+				9AE2EA282C934F4600E1E7F5 /* Merch */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		9AE2EA1E2C9217F900E1E7F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AE2EA2B2C93504800E1E7F5 /* Merch */,
+				9AE2EA2E2C9350D900E1E7F5 /* TextViewerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9AE2EA212C92183C00E1E7F5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9AE2EA222C92186900E1E7F5 /* DisposableViewProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9AE2EA282C934F4600E1E7F5 /* Merch */ = {
+			isa = PBXGroup;
+			children = (
+				9AE2EA242C93212700E1E7F5 /* SquareCoordinator.swift */,
+				9AE2EA262C93334200E1E7F5 /* MerchCoordinator.swift */,
+				9AE2EA292C934F8100E1E7F5 /* MessageViewerCoordinator.swift */,
+			);
+			path = Merch;
+			sourceTree = "<group>";
+		};
+		9AE2EA2B2C93504800E1E7F5 /* Merch */ = {
+			isa = PBXGroup;
+			children = (
+				9AE2EA1F2C92181100E1E7F5 /* SquareView.swift */,
+			);
+			path = Merch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +199,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AE2EA102C92122B00E1E7F5 /* ContentView.swift in Sources */,
+				9AE2EA252C93212700E1E7F5 /* SquareCoordinator.swift in Sources */,
+				9AE2EA272C93334200E1E7F5 /* MerchCoordinator.swift in Sources */,
 				9AE2EA0E2C92122B00E1E7F5 /* ExampleCoordinatorUIApp.swift in Sources */,
+				9AE2EA2A2C934F8100E1E7F5 /* MessageViewerCoordinator.swift in Sources */,
+				9AE2EA1D2C9212B000E1E7F5 /* Coordinator.swift in Sources */,
+				9AE2EA2F2C9350D900E1E7F5 /* TextViewerView.swift in Sources */,
+				9AE2EA202C92181100E1E7F5 /* SquareView.swift in Sources */,
+				9AE2EA232C92186900E1E7F5 /* DisposableViewProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

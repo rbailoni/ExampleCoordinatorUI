@@ -19,7 +19,7 @@ final class MerchCoordinator: ParentCoordinator {
         self.navigationPath = navigationPath
     }
     
-    func start(animated: Bool) -> AnyView {
+    func start() -> AnyView {
         /// Merch Coordinator Initialization
         return AnyView(EmptyView())
     }

@@ -10,7 +10,7 @@ import SwiftUI
 
 protocol Coordinator: AnyObject {
     var navigationPath: Binding<NavigationPath> { get set }
-    func start(animated: Bool) -> AnyView
+    func start() -> AnyView
 }
 
 protocol ParentCoordinator: Coordinator {

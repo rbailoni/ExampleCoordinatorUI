@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A798E582C98772C003FC36B /* NavigationPathProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A798E572C98772C003FC36B /* NavigationPathProtocol.swift */; };
 		9AE2EA0E2C92122B00E1E7F5 /* ExampleCoordinatorUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2EA0D2C92122B00E1E7F5 /* ExampleCoordinatorUIApp.swift */; };
 		9AE2EA102C92122B00E1E7F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2EA0F2C92122B00E1E7F5 /* ContentView.swift */; };
 		9AE2EA122C92122D00E1E7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2EA112C92122D00E1E7F5 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A798E572C98772C003FC36B /* NavigationPathProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPathProtocol.swift; sourceTree = "<group>"; };
 		9AE2EA0A2C92122B00E1E7F5 /* ExampleCoordinatorUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleCoordinatorUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE2EA0D2C92122B00E1E7F5 /* ExampleCoordinatorUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCoordinatorUIApp.swift; sourceTree = "<group>"; };
 		9AE2EA0F2C92122B00E1E7F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				9AE2EA222C92186900E1E7F5 /* DisposableViewProtocol.swift */,
+				9A798E572C98772C003FC36B /* NavigationPathProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A798E582C98772C003FC36B /* NavigationPathProtocol.swift in Sources */,
 				9AE2EA102C92122B00E1E7F5 /* ContentView.swift in Sources */,
 				9AE2EA252C93212700E1E7F5 /* SquareCoordinator.swift in Sources */,
 				9AE2EA272C93334200E1E7F5 /* MerchCoordinator.swift in Sources */,

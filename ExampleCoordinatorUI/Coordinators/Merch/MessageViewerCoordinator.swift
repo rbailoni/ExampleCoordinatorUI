@@ -19,7 +19,7 @@ final class MessageViewerCoordinator: ChildCoordinator {
         self.text = text
     }
     
-    func start(animated: Bool) -> AnyView {
+    func start() -> AnyView {
         var textViewerView = TextViewerView(coordinator: self, text: text ?? "")
         textViewerView.text = self.text
         return AnyView(textViewerView)

@@ -19,7 +19,7 @@ final class SquareCoordinator: ChildCoordinator {
         self.productID = productID
     }
     
-    func start(animated: Bool) -> AnyView {
+    func start() -> AnyView {
         var squareView = SquareView()
         squareView.productID = self.productID
         squareView.coordinator = self

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9A798E582C98772C003FC36B /* NavigationPathProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A798E572C98772C003FC36B /* NavigationPathProtocol.swift */; };
+		9AB88BF92C9B4F1E000E59B3 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB88BF82C9B4F1E000E59B3 /* RootCoordinator.swift */; };
+		9AB88BFC2C9B55DB000E59B3 /* BaseTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB88BFB2C9B55DB000E59B3 /* BaseTabBarView.swift */; };
+		9AB88BFE2C9B574F000E59B3 /* GreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB88BFD2C9B574F000E59B3 /* GreenCoordinator.swift */; };
 		9AE2EA0E2C92122B00E1E7F5 /* ExampleCoordinatorUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2EA0D2C92122B00E1E7F5 /* ExampleCoordinatorUIApp.swift */; };
 		9AE2EA102C92122B00E1E7F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE2EA0F2C92122B00E1E7F5 /* ContentView.swift */; };
 		9AE2EA122C92122D00E1E7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE2EA112C92122D00E1E7F5 /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 
 /* Begin PBXFileReference section */
 		9A798E572C98772C003FC36B /* NavigationPathProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPathProtocol.swift; sourceTree = "<group>"; };
+		9AB88BF82C9B4F1E000E59B3 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		9AB88BFB2C9B55DB000E59B3 /* BaseTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarView.swift; sourceTree = "<group>"; };
+		9AB88BFD2C9B574F000E59B3 /* GreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCoordinator.swift; sourceTree = "<group>"; };
 		9AE2EA0A2C92122B00E1E7F5 /* ExampleCoordinatorUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleCoordinatorUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE2EA0D2C92122B00E1E7F5 /* ExampleCoordinatorUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleCoordinatorUIApp.swift; sourceTree = "<group>"; };
 		9AE2EA0F2C92122B00E1E7F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +54,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AB88BF72C9B4ECF000E59B3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9AB88BF82C9B4F1E000E59B3 /* RootCoordinator.swift */,
+				9AB88BFD2C9B574F000E59B3 /* GreenCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9AB88BFA2C9B55BC000E59B3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9AB88BFB2C9B55DB000E59B3 /* BaseTabBarView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		9AE2EA012C92122B00E1E7F5 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +112,7 @@
 		9AE2EA1B2C92129A00E1E7F5 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				9AB88BF72C9B4ECF000E59B3 /* Main */,
 				9AE2EA1C2C9212B000E1E7F5 /* Coordinator.swift */,
 				9AE2EA282C934F4600E1E7F5 /* Merch */,
 			);
@@ -98,6 +122,7 @@
 		9AE2EA1E2C9217F900E1E7F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9AB88BFA2C9B55BC000E59B3 /* Main */,
 				9AE2EA2B2C93504800E1E7F5 /* Merch */,
 				9AE2EA2E2C9350D900E1E7F5 /* TextViewerView.swift */,
 			);
@@ -202,7 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A798E582C98772C003FC36B /* NavigationPathProtocol.swift in Sources */,
+				9AB88BFC2C9B55DB000E59B3 /* BaseTabBarView.swift in Sources */,
 				9AE2EA102C92122B00E1E7F5 /* ContentView.swift in Sources */,
+				9AB88BFE2C9B574F000E59B3 /* GreenCoordinator.swift in Sources */,
 				9AE2EA252C93212700E1E7F5 /* SquareCoordinator.swift in Sources */,
 				9AE2EA272C93334200E1E7F5 /* MerchCoordinator.swift in Sources */,
 				9AE2EA0E2C92122B00E1E7F5 /* ExampleCoordinatorUIApp.swift in Sources */,
@@ -210,6 +237,7 @@
 				9AE2EA1D2C9212B000E1E7F5 /* Coordinator.swift in Sources */,
 				9AE2EA2F2C9350D900E1E7F5 /* TextViewerView.swift in Sources */,
 				9AE2EA202C92181100E1E7F5 /* SquareView.swift in Sources */,
+				9AB88BF92C9B4F1E000E59B3 /* RootCoordinator.swift in Sources */,
 				9AE2EA232C92186900E1E7F5 /* DisposableViewProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
